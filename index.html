@@ -15,8 +15,11 @@
 
     <div class="container">
         <header><span style="color:cadetblue;font-size:50pt">Trivia Game</span></header>
-        <p>Insert Directions Here</p>
-        <button type="button" class="btn btn-light">Start</button>
+        <p>You have one minute to answer all of the questions! 
+            Have fun!  </p>
+                <p id="timeleft"></p>
+                <div id=questionblock></div>
+        <button type="button" class="btn btn-light" id="Start">Start</button>
         <!-- /gotta reload the page to load the game -->
 </head>
 
@@ -24,7 +27,8 @@
     <div class="quiz"></div>
     </div>
 
-    <!-- javascript -->
+    <!-- javascript/jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="assets/Javscript/app.js"></script>
 </body>
 
